@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(./asset/front-banner.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+.container {
+    margin: 0 auto;
+    width: 69%;
+    max-width: 1200px;
+}
+/* Garis */
+.horizontal {
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-style: solid;
+}
+.vertical {
+    width: 100%;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    background-color: transparent;
+    margin: 20px auto;
+}
+
+/* Bagian Kiri */
+
+.kiri img {
+    width: 90px;
+    padding: 0 20px 0 0;
+}
+
+/* Bagian Kanan */
+.kanan {
+    width: 100%;
+}
+
+/* Bagian Kanan Atas */
+.kanan .atas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+.kanan .atas .ataskiri {
+   margin-left: 40px;
+   align-items: center;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.kanan .atas .ataskiri ul li {
+    padding-right: 30px;
+    justify-content: center;
+}
+
+.kanan .atas .ataskiri ul li .bold {
+   background: rgba(192, 192, 192, 0.37);
+   font-size: 13px;
+   padding: 2px 10px;
+   border-radius: 50px;
+   font-weight: 500;
+}
+
+.kanan .atas .ataskiri ul li img {
+    padding-right: 5px;
+ }
+
+/* Bagian kanan Atas */
+/* Bagian AtasKiri */
+.kanan .atas .ataskiri ul{
+    display: inline-flex;
+}
+
+.kanan .atas .ataskiri img{
+    width: 12px;
+}
+
+/* Bagian kanan Atas */
+/* Bagian AtasKanan */
+.kanan .atas .ataskanan {
+    display: flex;
+    align-items: center;
+}
+
+.kanan .atas .ataskanan ul li{
+    justify-content: center;
+}
+.kanan .atas .ataskanan img{
+    width: 20px;
+    margin: 10px;
+}
+
+
+/* Bagian Bawah */
+/* Bagian Bawah Kiri */
+.bawah {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    align-items: center;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bawah .bawahkiri {
+    /* margin-top: -5px; */
+    margin-left: 40px;
+}
+
+.bawah .bawahkiri ul {
+    display: inline-flex;
+}
+
+.bawah .bawahkiri ul li {
+    padding-right: 30px;
+}
+
+/* Bagaian Bawah Kanan */
+.bawah .bawahkanan {
+    display: flex;
+    /* margin-top: -5px; */
+}
+
+.bawah .bawahkanan ul {
+    display: inline-flex;
+}
+
+.bawah .bawahkanan ul li {
+    padding-left: 30px;
+}
+
+/* Bagian Konten */
+.konten {
+    margin-top: 90px;
+}
+
+.konten .judul h1 {
+    font-size: 49px;
+    font-weight: 700px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Bagian tombol */
+.satu, .dua {
+    margin: 20px 0;
+    padding: 7px 20px;
+    border-width: 1px;
+}
+
+.satu {
+    background-color: rgb(60,179,113);
+    border-color: transparent;
+    margin-right: 10px;
+    color: white;
+}
+
+.dua {
+    margin-right: 10px;
+    background-color: transparent;
+    
+}
+
+.dua:hover {
+    border: transparent;
+    border-width: 1px;
+    margin-right: 10px;
+    background-color: transparent;
+    background-color: rgb(60,179,113);
+    color: white;
+}
+
+
+/* logo */
+.logo img {
+    width: 80px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
